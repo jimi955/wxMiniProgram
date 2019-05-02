@@ -1,7 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-  
-  <navigator url="../logs/logs?id=100&title=标题" >
+
+  // navigator:跳转到log页面 但是当前index页面仍然存在 ？后面的数据将存到option里面，以对象的形式传给log页面的onload作为参数。 添加redirect属性则当前index页面不保存
+  <navigator url="../logs/logs?id=100&title=标题" redirect>
   <view >
     <text class="user-motto">文章1</text>
   </view>
