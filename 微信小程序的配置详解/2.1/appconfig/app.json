@@ -15,7 +15,7 @@
     "navigationBarTextStyle":"white"
   },
 
-
+   // list里面对象有的话，才可以显示
   "tabBar": {
     "color":"#333",
     "borderStyle":"white",
@@ -33,13 +33,13 @@
   },
 
 
-
+  // 网络请求的响应时间限制
    "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000
   },
 
-
+  // debug开关
   "debug":true
 
 
