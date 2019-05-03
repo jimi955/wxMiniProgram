@@ -5,8 +5,8 @@
 
 
   <scroll-view scroll-y="true" style="height: 200px;" >
-      <view wx:for="{{expressInfo.data}}">
-          {{item.context}} 【 {{item.time}}】
+      <view wx:for="{{expressInfo.subjects}}">
+          {{item.title}} 评分：【 {{item.rate}}】
       </view>
    </scroll-view>
 

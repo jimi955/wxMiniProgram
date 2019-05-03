@@ -1,11 +1,11 @@
 <!--logs.wxml-->
 <view class="container">
-  <swiper indicator-dots="{{indicatorDots}}" style="width:300px"
-  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="change">
-  <block wx:for="{{imgUrls}}">
-    <swiper-item>
-      <image src="{{item}}" class="slide-image" width="355" height="150"/>
-    </swiper-item>
-  </block>
-</swiper>
+  <!-- bindchange:change事件,可以获取当前的页面信息，比如：第几页 -->
+  <swiper indicator-dots="{{indicatorDots}}" style="width:300px" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="change" circular="true">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
 </view>

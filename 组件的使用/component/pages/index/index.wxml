@@ -1,23 +1,23 @@
 <!--index.wxml-->
-<view class="container" >
+<view class="container">
 
+  <!-- indicator-dots:显示面板指示点   autoplay:自动滚动   duration:滑动的间隔时间ms    interval：自动切换间隔-->
+  <swiper indicator-dots="{{dots}}" autoplay="true" interval="3000" duration="1000" style="width:300px">
 
-<swiper indicator-dots="{{dots}}" autoplay="true" interval="3000" duration="1000" style="width:300px">
-  
     <swiper-item>
-      <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="slide-image" width="355" height="150"/>
+      <image src="https://imgsa.baidu.com/forum/wh%3D105%2C90/sign=220eb731f5f2b211e47b8d4ffab54901/1d950a7b02087bf438e786abfcd3572c11dfcf6d.jpg" class="slide-image" width="355" height="150" />
     </swiper-item>
 
     <swiper-item>
-      <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" class="slide-image" width="355" height="150"/>
+      <image src="https://imgsa.baidu.com/forum/wh%3D160%2C90/sign=f5d9927b4536acaf59b59efd4ae9a129/62d0f703918fa0ec36ccb54f289759ee3d6ddb6d.jpg" class="slide-image" width="355" height="150" />
     </swiper-item>
 
     <swiper-item>
-      <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg" class="slide-image" width="355" height="150"/>
+      <image src="https://imgsa.baidu.com/forum/wh%3D120%2C90/sign=e3a502a0297f9e2f706015092d00c51d/a4c27d1ed21b0ef459fb2818d3c451da81cb3e60.jpg" class="slide-image" width="355" height="150" />
     </swiper-item>
- 
-</swiper>
+
+  </swiper>
 
 
-  
+
 </view>

@@ -17,8 +17,9 @@ Page({
   btnClick : function(){
     //console.log(this.data.expressNu)
     var thispage = this;
+    // 把我写的输入的字段带进去
     app.getExpressInfo(this.data.expressNu,function(data){
-        console.log(data)
+        // console.log(data)
         thispage.setData({expressInfo:data})
     });
   },

@@ -1,9 +1,9 @@
 Page({
   data:{
     imgUrls:[
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      'http://p0.ifengimg.com/pmop/2017/0731/515368448AD04BBE22C45DC5860A28E1C49B02EB_size69_w600_h375.jpeg',
+      'http://p0.ifengimg.com/pmop/2017/0731/515368448AD04BBE22C45DC5860A28E1C49B02EB_size69_w600_h375.jpeg',
+      'http://p0.ifengimg.com/pmop/2017/0731/515368448AD04BBE22C45DC5860A28E1C49B02EB_size69_w600_h375.jpeg'
     ],
     autoplay:true,
     indicatorDots:true,

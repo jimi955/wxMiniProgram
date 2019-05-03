@@ -27,17 +27,17 @@ App({
 
  getExpressInfo:function(nu,cb){
    wx.request({
-      url: 'http://apis.baidu.com/kuaidicom/express_api/express_api?muti=0&order=desc&nu='+nu,
+     url: 'https://movie.douban.com/j/search_subjects?type=movie&tag=%E8%B1%86%E7%93%A3%E9%AB%98%E5%88%86&page_limit=50&page_start=0',
       data: {
         x: '' ,
         y: ''
       },
       header: {
-          'apikey': '2e24c33be1e7f7dafebc496c07441138'
+          'Content-Type':'json'
       },
       success: function(res) {
-       // console.log(res.data)
-       cb(res.data)
+       // console.log(res)
+        cb(res.data)
       }
     })
 

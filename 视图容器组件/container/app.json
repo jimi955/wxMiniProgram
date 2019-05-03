@@ -1,13 +1,13 @@
 {
-  "pages":[
-     "pages/logs/logs",
+  "pages": [
+    "pages/logs/logs",
     "pages/index/index"
-   
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "首页",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
 }

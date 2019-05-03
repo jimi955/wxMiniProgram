@@ -2,6 +2,7 @@
 //获取应用实例
 var app = getApp()
 Page({
+  // 通常将属性也放到data里面
   data: {
     motto: 'Hello World',
     userInfo: {},
