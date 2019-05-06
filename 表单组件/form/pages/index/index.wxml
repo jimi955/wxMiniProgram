@@ -10,6 +10,7 @@
 
     <input name="input" placeholder="please input here" />
 
+    <!-- form-type会触发form对应得事件 -->
     <button type="default" form-type="submit" > 提交数据 </button>
     <button type="default" form-type="reset" > 重置 </button>
  
